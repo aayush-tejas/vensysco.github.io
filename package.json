@@ -1,0 +1,23 @@
+{
+  "name": "vensysco-cloud",
+  "version": "1.0.0",
+  "description": "Vensysco Cloud Platform",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^7.5.0",
+    "dotenv": "^16.3.1",
+    "bcryptjs": "^2.4.3",
+    "jsonwebtoken": "^9.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "vite": "^4.4.9"
+  }
+}
